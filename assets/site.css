@@ -323,12 +323,11 @@ footer.site a:hover{color:#7FE3A8}
 .sec.navy .tbl th,.sec.navy .tbl td{border-bottom-color:rgba(255,255,255,.1);color:#C3CEDF}
 .sec.navy .tbl td:first-child,.sec.navy .tbl caption{color:#fff}
 
-.callout{border-left:4px solid var(--grn);background:var(--grn-lt);
-  border-radius:0 var(--r) var(--r) 0;padding:18px 22px;margin:0 0 1.15em}
-.callout p{margin:0}
+/* additions only - base .callout is defined above */
 .callout p+p{margin-top:.7em}
 .callout b,.callout strong{color:var(--grn-dk)}
-.callout.warn{border-left-color:var(--org);background:#FDF1EC}
+.callout.warn{background:#FDF1EC;border-left-color:var(--org)}
+.callout.org b,.callout.org strong,
 .callout.warn b,.callout.warn strong{color:var(--org-dk)}
 .sec.navy .callout{background:var(--navy-lt);border-left-color:#5FD98F}
 .sec.navy .callout p{color:#C3CEDF}
